@@ -4,7 +4,7 @@
  *  T(N) = O(log N)
  * */
 #include <stdio.h>
-
+#include <time.h>
 unsigned int Gcd (unsigned int M, unsigned int N)
 {
     unsigned int Rem;
@@ -20,10 +20,16 @@ unsigned int Gcd (unsigned int M, unsigned int N)
 
 int main (void)
 {
-    unsigned int M = 1989;
-    unsigned int N = 1590;
+    clock_t start, end;    
+    unsigned int gcd;
+    unsigned int M = 4999;
+    unsigned int N = 5630;
     
-    printf ("Gcd is %u\n", Gcd (M, N));
+    start = clock ();
+    gcd = Gcd (M, N);
+    end = clock ();
+    printf ("Gcd is %u\n", gcd);
+    printf ("Time consumed: %.2f\n", 1000 * (double) (end - start) / CLOCKS_PER_SEC);
 
     return 0;
 }

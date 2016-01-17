@@ -4,10 +4,17 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-Max3	c2_MaxSubSequenceSum.c	/^int Max3 (int a, int b, int c)$/;"	f	signature:(int a, int b, int c)
+BinarySearch	c2_BinarySearch.c	/^int BinarySearch (const ElementType A[], ElementType X, int N)$/;"	f	signature:(const ElementType A[], ElementType X, int N)
+ElementType	c2_BinarySearch.c	2;"	d	file:
+Gcd	c2_Gcd.c	/^unsigned int Gcd (unsigned int M, unsigned int N)$/;"	f	signature:(unsigned int M, unsigned int N)
+Max3	c2_MaxSubSequenceSum.c	/^int Max3 (int a, int b, int c)      \/\/ 用于法三，求三个数的最大数并返回$/;"	f	signature:(int a, int b, int c)
 MaxSubSequenceSum_1	c2_MaxSubSequenceSum.c	/^int MaxSubSequenceSum_1 (const int A[], int N)$/;"	f	signature:(const int A[], int N)
 MaxSubSequenceSum_2	c2_MaxSubSequenceSum.c	/^int MaxSubSequenceSum_2 (const int A[], int N)$/;"	f	signature:(const int A[], int N)
 MaxSubSequenceSum_3	c2_MaxSubSequenceSum.c	/^int MaxSubSequenceSum_3 (const int A[], int N)$/;"	f	signature:(const int A[], int N)
 MaxSubSequenceSum_4	c2_MaxSubSequenceSum.c	/^int MaxSubSequenceSum_4 (const int A[], int N)$/;"	f	signature:(const int A[], int N)
 MaxSubSum	c2_MaxSubSequenceSum.c	/^static int MaxSubSum (const int A[], int Left, int Right)$/;"	f	file:	signature:(const int A[], int Left, int Right)
+NotFound	c2_BinarySearch.c	3;"	d	file:
+Pow	c2_Pow.c	/^long int Pow (long int X, unsigned int N)$/;"	f	signature:(long int X, unsigned int N)
+main	c2_BinarySearch.c	/^int main (void)$/;"	f	signature:(void)
+main	c2_Gcd.c	/^int main (void)$/;"	f	signature:(void)
 main	test_MaxSubSequenceSum.c	/^int main (void)$/;"	f	signature:(void)
